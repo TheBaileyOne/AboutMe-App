@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">About Me</string>
     <string name="name">Alex Bailey</string>
+    <string name="yellow_star">Yellow Star</string>
+
+    <string name="bio"> Hi my name is Alex.
+        \n\nI like Zelda.
+        \n\nOcarina of time was the first game I played, and I loved it
+        \n\nI don\'t know how many times I have played it but it\'s quite a lot.
+        \n\nI have stopped playing it for a bit because i knew it too well and was hoping to forget a bit.
+        \n\nI might play it again soon because surely by now I have forgotten some bits&#8230; maybe&#8230;
+    </string>
 </resources>
