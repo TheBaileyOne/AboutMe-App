@@ -24,12 +24,29 @@
     <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent" android:id="@+id/bio_scroll">
-        <TextView
-                android:text="@string/bio"
+
+        <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/bio_text"
-                style="@style/NameStyle"
-                android:lineSpacingMultiplier="1.2"/>
+                android:orientation="vertical">
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_menu_view"
+                    android:id="@+id/eye_img"
+                    android:contentDescription="@string/eye_image"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/NameStyle"
+                    android:text="@string/bio"
+                    android:lineSpacingMultiplier="1.2"
+                    android:id="@+id/bio_text"/>
+
+        </LinearLayout>
+
     </ScrollView>
+
 </LinearLayout>
